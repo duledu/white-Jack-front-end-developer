@@ -1,0 +1,30 @@
+footer{
+  .footer-benz-title{
+    background: #262626;
+    color: $bgcolor;
+
+    .footer-icon{
+      font-size: 1.5rem;
+      color: white;
+      font-size: 1.5rem;
+      transition: all 0.4s ease-in-out;
+
+      &:hover{
+        color: $bgcolor;
+      }
+    }
+  }
+  .footer-contact{
+    color: white;
+
+    .footer-icon{
+      font-size: 1.5rem;
+      color: $bgcolor;
+      transition: all 0.4s ease-in-out;
+
+      &:hover{
+        color: white;
+      }
+    }
+  }
+}

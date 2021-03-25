@@ -1,0 +1,14 @@
+.question{
+  background:$bgcolor;
+  .bg-question{
+    min-height: 50vh; //naucio si napokon
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1578430840221-f54f1f2675a1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .bg-question2{
+    color: $textcolor;
+    background: #262626;
+  }
+}

@@ -1,0 +1,22 @@
+header{
+  .bg-dark{
+    background: $bgcolor !important;
+  }
+  .toggler-icon{
+    color: #eee;
+  }
+  .nav-link{
+    color: $textcolor;
+    font-size: 1.6rem;
+    transition: all 0.6s ease-in-out;
+
+    &:hover{
+      color: #eee;
+      border-bottom: 1px solid #eee;
+      font-size: 1.1rem;
+    }
+  }
+  .info-icon{
+    color: $textcolor !important;
+  }
+}
